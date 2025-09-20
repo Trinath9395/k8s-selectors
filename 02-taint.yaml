@@ -1,0 +1,12 @@
+apiVersion: v1 
+kind: Pod 
+metadata: 
+  name: taint
+  labels: 
+    purpose: "taint-demo"
+spec: 
+  nodeSelector: 
+    topology.ebs.csi.aws.com/zone: us-east-1b
+  containers: 
+  - name: nginx 
+    image: nginx 

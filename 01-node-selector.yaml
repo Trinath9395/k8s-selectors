@@ -9,4 +9,4 @@ spec:
     topology.ebs.csi.aws.com/zone: us-east-1c 
   containers: 
   - name: nginx 
-    image: nginx 
+    image: nginx
