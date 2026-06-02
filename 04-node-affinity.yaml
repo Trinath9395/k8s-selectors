@@ -4,8 +4,7 @@ metadata:
   name: affinity 
   labels: 
     purpose: "affinity-demo"
-spec: 
-  spec:
+spec:
   affinity:
     nodeAffinity:
       requiredDuringSchedulingIgnoredDuringExecution:
